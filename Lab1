@@ -73,8 +73,7 @@ void deletat( int pos2) {
 						temp2 = temp2 -> next;
 						delete temp2; } }
 			else { cout << "not " << endl;} }
-	
-	voi	 
+	 
 
 int main () {
 		LL l1;
