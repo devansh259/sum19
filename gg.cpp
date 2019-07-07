@@ -84,7 +84,7 @@ if(child){child->parent=curr->parent;}
 void d(node*current,int value,node*curr1){
 if(current==NULL){return;}
 
-node*curr=s(root,value);
+node*curr=s(current,value);
 if(curr==NULL){return;}
 else{
 if((curr->left!=NULL)&&(curr->right!=NULL))
